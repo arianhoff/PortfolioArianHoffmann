@@ -8,4 +8,4 @@ Se muestran los trabajos de:
 - Diseño Gráfico
 - Comunnity Manager
 
-Este portfolio es un reflejo de lo que estoy aprendiendo y lo que iré aprendiendo en el futuro.
+Este portfolio es un reflejo de lo que estoy aprendiendo y lo que iré aprendiendo en el futuro sobre las tecnologías y las áreas que más me apasionan.
