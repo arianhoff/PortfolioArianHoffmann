@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="Estilos/estilos.css" />
+    <title>Arian Hoffmann</title>
+  </head>
+
+  <body>
+    <!-- Inicio-->
+    <section id="inicio">
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <h1>Arian Hoffmann</h1>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a
+                    href="#inicio"
+                    class="seleccionado"
+                    onclick="seleccionar(this)"
+                    >INICIO</a
+                  >
+                </li>
+                <li>
+                  <a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a>
+                </li>
+                <li>
+                  <a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a>
+                </li>
+                <li>
+                  <a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a>
+                </li>
+                <li>
+                  <a href="#contacto" onclick="seleccionar(this)">CONTACTO</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Iconos del menú responsive-->
+
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!--Iconos de las redes sociales -->
+
+            <div class="redes">
+              <a
+                href="https://www.linkedin.com/in/arian-hoffmann-726376161/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.behance.net/arianhoffmann1" target="_blank"
+                ><i class="fa-brands fa-behance-square"></i
+              ></a>
+              <a href="https://www.instagram.com/ari.hoffmann/" target="_blank"
+                ><i class="fa-brands fa-instagram-square"></i
+              ></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenidos">Bienvenidos</p>
+          <h2>Soy <span>Arian Hoffmann</span>, Desarrollador Web Full Stack</h2>
+          <p class="descripcion">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, nobis
+            perspiciatis.
+          </p>
+          <a href="#portfolio">Ir a Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+
+    <section id="sobremi">
+      <div class="contenedor-foto">
+        <img src="Img/arian.jpg" alt="Foto Personal" />
+      </div>
+      <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>
+        <h2>Hola, soy <span>Arian Hoffmann</span></h2>
+        <h3>Desarrollador Web Full Stack</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
+          voluptatem laboriosam harum exercitationem ex.
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur.</p>
+        <a href="#">Descargar CV</a>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+
+    <section id="servicios">
+      <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>Seo</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            repudiandae fugiat fugit doloremque adipisci.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>Seo</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            repudiandae fugiat fugit doloremque adipisci.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>Seo</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            repudiandae fugiat fugit doloremque adipisci.
+          </p>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>Seo</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            repudiandae fugiat fugit doloremque adipisci.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>Seo</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            repudiandae fugiat fugit doloremque adipisci.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>Seo</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            repudiandae fugiat fugit doloremque adipisci.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <div class="contenedor-skills" id="skills">
+      <h3>HABILIDADES</h3>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Html & Css</p>
+          <span class="porecentaje">95%</span>
+        </div>
+        <div class="barra">
+          <div id="html" class="barra-progreso1"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>React</p>
+          <span class="porecentaje">85%</span>
+        </div>
+        <div class="barra">
+          <div id="react" class="barra-progreso2"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Javascript</p>
+          <span class="porecentaje">50%</span>
+        </div>
+        <div class="barra">
+          <div id="js" class="barra-progreso3"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Base de datos</p>
+          <span class="porecentaje">75%</span>
+        </div>
+        <div class="barra">
+          <div id="bd" class="barra-progreso4"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Photoshop</p>
+          <span class="porecentaje">95%</span>
+        </div>
+        <div class="barra">
+          <div id="ps" class="barra-progreso5"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>After Effects</p>
+          <span class="porecentaje">80%</span>
+        </div>
+        <div class="barra">
+          <div id="af" class="barra-progreso6"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <section id="portfolio">
+      <h3 class="titulo-seccion">Mis Proyectos</h3>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay">
+            <img src="Img/57297.jpg" alt="Imagen del Proyecto" />
+            <div class="info">
+              <h4>Descripción Del Proyecto</h4>
+              <p>Diseño Web</p>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay">
+            <img src="Img/57297.jpg" alt="Imagen del Proyecto" />
+            <div class="info">
+              <h4>Descripción Del Proyecto</h4>
+              <p>Diseño Web</p>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay">
+            <img src="Img/57297.jpg" alt="Imagen del Proyecto" />
+            <div class="info">
+              <h4>Descripción Del Proyecto</h4>
+              <p>Diseño Web</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay">
+            <img src="Img/57297.jpg" alt="Imagen del Proyecto" />
+            <div class="info">
+              <h4>Descripción Del Proyecto</h4>
+              <p>Diseño Web</p>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay">
+            <img src="Img/57297.jpg" alt="Imagen del Proyecto" />
+            <div class="info">
+              <h4>Descripción Del Proyecto</h4>
+              <p>Diseño Web</p>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay">
+            <img src="Img/57297.jpg" alt="Imagen del Proyecto" />
+            <div class="info">
+              <h4>Descripción Del Proyecto</h4>
+              <p>Diseño Web</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay">
+            <img src="Img/57297.jpg" alt="Imagen del Proyecto" />
+            <div class="info">
+              <h4>Descripción Del Proyecto</h4>
+              <p>Diseño Web</p>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay">
+            <img src="Img/57297.jpg" alt="Imagen del Proyecto" />
+            <div class="info">
+              <h4>Descripción Del Proyecto</h4>
+              <p>Diseño Web</p>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay">
+            <img src="Img/57297.jpg" alt="Imagen del Proyecto" />
+            <div class="info">
+              <h4>Descripción Del Proyecto</h4>
+              <p>Diseño Web</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+
+    <section id="contacto">
+      <h3 class="titulo-seccion">Contáctame ahora</h3>
+      <div class="contenedor-form">
+        <form action="">
+          <div class="fila mitad">
+            <input
+              type="text"
+              placeholder="Nombre Completo"
+              class="input-mitad"
+            />
+            <input
+              type="text"
+              placeholder="Dirección de Email"
+              class="input-mitad"
+            />
+          </div>
+          <div class="fila">
+            <input type="text" placeholder="Tema..." class="input-full" />
+          </div>
+          <div class="fila">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Tu Mensaje ..."
+              class="input-full"
+            ></textarea>
+          </div>
+          <input type="submit" value="Enviar Mensaje" class="btn-enviar" />
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer>
+      <p>Todos los derechos reservados - 2022</p>
+
+      <div class="redes">
+        <a
+          href="https://www.linkedin.com/in/arian-hoffmann-726376161/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://www.behance.net/arianhoffmann1" target="_blank"
+          ><i class="fa-brands fa-behance-square"></i
+        ></a>
+        <a href="https://www.instagram.com/ari.hoffmann/" target="_blank"
+          ><i class="fa-brands fa-instagram-square"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="/PortfolioArianHoffmann/Scripts/scripts.js"></script>
+  </body>
+</html>
